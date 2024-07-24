@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 535px;
+    background-color: #1C0400;
+}
+
+.container__header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    padding-left: 47px;
+}
+
+#banner {
+    padding-left: 4px;
+}
+
+#section1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+aside {
+    margin-top: 30px;
+    display: inline-block;
+    div {
+        margin-top: 20px;
+    }
+}
+
+.section__title {
+    background-color: #F9E1E2;
+    width: 906px;
+    height: 280px;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left: 47px;
+}
+
+.section__title p {
+    font-size: 24px;
+}
+
+section div {
+    display: inline-block;
+}
+
+.vazia {
+    background-color: #1C0400;
+    height: 37px;
+}
+
+.shows__tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.shows__tabs--button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 0 10px; 
+    font-size: 18px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.shows__tabs--button:hover {
+    background-color: #C70039; 
+}
+
+.shows__tabs--button--is-active {
+    background-color: #900C3F; 
+}
+
+.container__mid {
+    display: flex; /* Alinha os filhos em linha horizontal */
+    justify-content: space-around; /* Distribui o espaço uniformemente entre os itens */
+    align-items: flex-start; /* Alinha os itens no topo do contêiner */
+    margin-top: 50px;
+    background-color: #1C0400;
+    height: 500px;
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+    div {
+        margin-left: 80px;
+    }
+    
+}
+
+.container__mid {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: flex-start; /* Alinha os itens no topo do contêiner */
+    margin-top: 50px;
+    background-color: #1C0400;
+    height: 500px;
+    padding: 20px;
+}
+
+.mid__div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%; /* Ajuste a largura conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Novo CSS para a seção relacionados */
+.related {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    width: 30%; /* Define a largura para se ajustar ao espaço disponível */
+    text-align: center;
+    h2 {
+        color: white;
+        margin-bottom: 40px;
+    }
+}
+
+.related-item {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o texto e a imagem */
+    margin-bottom: 20px; /* Espaço entre os itens */
+    p {
+        color: white;
+    }
+}
+
+.related-item img {
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+}
+
+.related-item p {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+}
